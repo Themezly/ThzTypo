@@ -8,8 +8,8 @@ This way you can rest assured that there will be no page load overage.
 
 #Demos
 - [Base demo](https://jsfiddle.net/cjLosm80/embedded/result/)
-- [Bootstrap demo](https://jsfiddle.net/sgzfxupo/embedded/result/)
-- [Uikit demo](https://jsfiddle.net/8L4fn8uu/embedded/result/)
+- [Bootstrap demo](https://jsfiddle.net/hk2Lqmkq/embedded/result/)
+- [Uikit demo](https://jsfiddle.net/pxjzeh1o/embedded/result/)
 
 ## License, Copyright
 
