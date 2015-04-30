@@ -53,7 +53,11 @@
 
          var self = this;
 
-
+		
+		if(!$(self.element).find(self.settings.fontinput).length){
+			return;
+		}
+		
 		$(self.element).append($(self.settings.fontselector).css('display', 'block'));
          var $current = $(self.element).find(self.settings.fontinput).val().split('|');
          var font_family = $current[0];
