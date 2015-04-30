@@ -1,0 +1,58 @@
+/**
+ * @package      ThzTypo
+ * @copyright    Copyright(C) since 2015  Themezly.com. All Rights Reserved.
+ * @author       Themezly.com
+ * @version      1.0.0
+ * @license      MIT License, https://github.com/Themezly/ThzTypo/blob/master/LICENSE
+ * @website      http://www.themezly.com
+ */
+.thz-typography-group {
+	display:block;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.thz-typography-group span {
+	display:block;
+	clear:both;
+}
+.thz-fontbox {
+	display:block;
+	position:relative;
+	clear:both;
+}
+.thz-fontbox:before,
+.thz-fontbox:after{
+	display:table;
+	content:'';
+	clear:both;
+}
+#thz-font-selector {
+	display:none;
+	clear:both;
+	float:left;
+}
+.thz-font-input {
+	cursor:pointer;
+}
+.thz-typography-preview {
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	clear: both;
+	margin:10px;
+	overflow: hidden;
+	float: left;
+	padding: 30px;
+	font-size: 28px;
+	line-height: 1.4;
+	text-align: center;
+	max-width: 500px;
+}
+.thz-typography-subsets {
+	display:none;
+}
+.thz-typography-group .iris-picker{
+	position:absolute;
+	z-index: 99999;
+}
