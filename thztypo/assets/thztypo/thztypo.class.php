@@ -13,11 +13,32 @@
  */
 class ThzTypo {
 
+
+   /**
+     * Global instance object
+     *
+     * @since  1.0.0
+     */
+    
+    public static $_instance = null;
+	
+	
+
 	public function __construct() {
 		
 		$this->thz_font_print();
 		
 	}	
+	
+	
+   public static function getInstance() {
+        
+        
+        if ( self::$_instance == null ) {
+            self::$_instance = new ThzTypo();
+        }
+        return self::$_instance;
+    }
 	
 	/**
 	 * Creates a dropdown list with standard fonts

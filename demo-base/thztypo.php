@@ -159,7 +159,7 @@
 </script>
 	<?php 
 		require '../thztypo/assets/thztypo/thztypo.class.php';
-		$ThzTypo =  new ThzTypo;
+		ThzTypo::getInstance();
 	?>
 </body>
 </html>
