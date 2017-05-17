@@ -7,9 +7,9 @@ There are no expensive queries and all scripts are executed only on user interac
 This way you can rest assured that there will be no page load overage.
 
 #Demos
-- [Base demo](https://jsfiddle.net/cjLosm80/embedded/result/)
-- [Bootstrap demo](https://jsfiddle.net/hk2Lqmkq/embedded/result/)
-- [Uikit demo](https://jsfiddle.net/pxjzeh1o/embedded/result/)
+- [Base demo](https://jsfiddle.net/Themezly/01x4ew3z/embedded/result/)
+- [Bootstrap demo](https://jsfiddle.net/Themezly/tLeL7sfq/embedded/result/)
+- [Uikit demo](https://jsfiddle.net/Themezly/cpd76r4d/embedded/result/)
 
 ## License, Copyright
 
