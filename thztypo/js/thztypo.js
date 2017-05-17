@@ -128,7 +128,7 @@
             }
 
             if (font_type === 'google') {
-               var google_font_link = 'http://fonts.googleapis.com/css?family=' + fontFamily + ':' + fontWeight + '&subset=' + fontSubset;
+               var google_font_link = 'https://fonts.googleapis.com/css?family=' + fontFamily + ':' + fontWeight + '&subset=' + fontSubset;
                $('.thz_google_font').remove();
                $('link:last').after('<link href="' + google_font_link + '" rel="stylesheet" class="thz_google_font" type="text/css">');
                fontFamily = fontFamily + ',sans-serif';
